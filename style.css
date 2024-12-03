@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+
+a {
+    background-color: rgb(143, 175, 105);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+a:hover {
+    background-color: rgb(89, 112, 61);
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+}
+
+.first {
+    color: white;
+    background-image: url(assets/background.jpg);
+    background-size: 100%;
+    text-align: center;
+}
+
+.lansing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+
+.title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.versionofyourself {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.second {
+    background-color: rgb(83, 83, 83);
+    color: white;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+}
+
+.top{
+    font-size: 25px;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 60px;
+    gap: 30px;
+    margin-left: 42px;
+}
+
+.kiri{
+    width: 30%;
+}
+.tengah{
+    width: 30%;
+}
+.kanan{
+    width: 30%;
+}
+
+.judul {
+    margin-left: 15px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: rgb(143, 175, 105);
+}
+
+.isi {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.isi p {
+    margin-bottom: 10px;
+}
+
+.tebal {
+    font-weight: bold;
+    color: rgb(120, 151, 82);
+}
+
+.left {
+    background-color: white;
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.right {
+    background-color: rgb(180, 219, 132);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(73, 92, 51);
+}
+
+.third {
+    background-color: white;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.left h1 {
+    padding-top: 150px;
+    font-size: 80px;
+    margin-bottom: 70px;
+}
+
+.left img {
+    height: 250px;
+}
+
+.right {
+    padding-top: 120px;
+    padding-left: 30px;
+    justify-content: left;
+}
+
+.juduls {
+    margin-top: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.content {
+    display: flex;
+    font-size: 20px;
+}
+
+.anggota {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/anggota.jpg);
+    background-size: 100% 100%;
+    color: white;
+}
+
+.anggota .title {
+    font-size: 75px;
+}
+
+.anggota .name {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fourth {
+    background-color: black;
+    height: 10vh;
+    color: white;
+}
+
+.fourth h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.fourth p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
